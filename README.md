@@ -1,16 +1,16 @@
-# Portfolio Web Practice
+# Architecture Studio Website – Practice Project
 
-This repository contains a basic website created while learning web development.
+This project is a practice website created while learning web development.
 
-## Technologies
+It represents a fictional architecture studio called "PS Arquitectura".
+
+Technologies used:
 - HTML
 - CSS
 - Visual Studio Code
 
-## Live Website
-https://jacinta-solari-cmd.github.io/Portfolio-web/
-
-## UX/UI Designs
-https://www.behance.net/jacintasolari1
-
-This project was created as part of my learning process in frontend development.
+The goal of this project was to practice:
+- website structure
+- responsive layout
+- image galleries
+- navigation between pages
