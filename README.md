@@ -1,14 +1,13 @@
-# Portfolio Web
+# Portfolio Web Practice
 
-Proyecto de práctica de desarrollo web realizado durante un curso de frontend.
+This repository contains a basic website I created while learning web development.
 
-## Tecnologías utilizadas
+Technologies used:
 - HTML
 - CSS
 - Visual Studio Code
 
-## Descripción
-Este proyecto consiste en el desarrollo de una página web simple enfocada en el diseño visual y la estructura de estilos CSS.
+This project was created as part of my learning process in web development.
 
-## Estado del proyecto
-Actualmente en desarrollo. Próximamente se agregará el archivo HTML principal.
+UX/UI designs:
+https://www.behance.net/jacintasolari1
