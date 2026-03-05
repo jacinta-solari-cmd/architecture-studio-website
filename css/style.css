@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height:200px;
+}
+header {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+h1  {
+    display: flex;
+    padding-left: 120px;
+}
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 450px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto 0;
+    padding: 20px 0;
+}
+.section {
+    margin: 50px 0;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    width: 100%;
+}
+.home-text {
+    display: flex;
+    width: 45%;
+    height: 300px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    size: 100px;
+}
+.home-images {
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 650px;
+}
+.home-images img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #444;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+.about img {
+    max-width: 45%;
+    border-radius: 5px;
+}
+.about-text {
+    width: 50%;
+    text-align: justify;
+}
+.projects {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    white-space: nowrap;
+}
+.projects img {
+    max-width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.projects-images {
+    display:flex;
+    width: 120%;
+    justify-content: center;
+    gap: 50px;
+    height: 500px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.contact input, .contact textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact textarea {
+    resize: vertical;
+    height: 100px;
+}
+.contact button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact button:hover {
+    background-color: #444;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+}
