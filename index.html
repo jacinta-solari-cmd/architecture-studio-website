@@ -1,84 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PS arquitectura</title>
-    <meta name="description" content="Estudio de arquitectura especializado en diseño moderno y proyectos personalizados."> 
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS arquitectura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>PS arquitectura</h1>
-        <nav>
-            <ul>
-               <li><a href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
-               <li><a href="pages/proyectos.html">Proyectos</a></li>
-               <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <section id="home" class="section home">
-            <div>
-               <a href="pages/proyectos.html" class="btn">Ver todos los proyectos</a>
-            </div>
-            <div class="home-text">
-                <p>Párrafo 1 sobre la página o el servicio que ofreces.</p>
-                <p>Párrafo 2 con más detalles relevantes.</p>
-                <p>Párrafo 3 para completar la introducción.</p>
-            </div>
 
-            <div class="home-images">
-                <img src="assets/images/foto1.jpeg" alt="Imagen 1">
-                <img src="assets/images/foto2.jpeg" alt="Imagen 2">
-                <img src="assets/images/foto3.jpeg" alt="Imagen 3">
-                <img src="assets/images/foto4.jpeg" alt="Imagen 4">
-                <img src="assets/images/foto5.jpeg" alt="Imagen 5">
-                <img src="assets/images/foto6.jpeg" alt="Imagen 6">
-            </div>
-        </section>
-    
-        <section id="sobre-nosotros" class="section about">
-            <h2>Sobre nosotros</h2>
-            <img src="assets/images/equipo-de-trabajo.jpg" alt="Equipo de trabajo">
-            <div class="about-text">
-                <p>[Texto largo y descriptivo sobre ti o tu empresa. Aquí puedes incluir detalles sobre la misión, visión, historia, equipo, o cualquier otra información relevante que quieras compartir.]</p>
-            </div>
-        </section>
+<header>
 
-        <section id="projects" class="section projects">
-            <h2>Proyectos</h2>
+<div class="logo-area">
+<img src="assets/icons/logo gris.png" class="logo">
+<span>PS arquitectura</span>
+</div>
 
-            <img src="assets/images/proyecto 1.jpg" alt="Proyecto 1">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="pages/sobrenosotros.html">Estudio</a></li>
+<li><a href="pages/proyectos.html">Proyectos</a></li>
+<li><a href="pages/contacto.html">Contacto</a></li>
+</ul>
+</nav>
 
-            <img src="assets/images/proyecto 2.jpg" alt="Proyecto 2">
+<div class="social">
+<img src="assets/icons/icons8-instagram-50.png">
+<img src="assets/icons/icons8-whatsapp-50.png">
+</div>
 
-            <img src="assets/images/proyecto 3.jpg" alt="Proyecto 3">
+</header>
 
-            <img src="assets/images/proyecto 4.jpeg" alt="Proyecto 4">
 
-            <img src="assets/images/proyecto 5.jpeg" alt="Proyecto 5">
-            
-            <img src="assets/images/proyecto 6.jpeg" alt="Proyecto 6">
-        </section>
+<section class="home fade-in">
 
-        <section id="contact" class="section contact">
-            <h2>Contacto</h2>
-            <div class="contact-text">
-                <p>Si deseas que te asesoremos con tu proyecto o estas interesado en algun proyecto nuestro, no dudes en escribirnos y te responderemos a la brevedad</p>
-            </div>
-            <form>
-                <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="consulta" placeholder="Consulta" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </div>
+  <div class="home-text container">
 
-    <footer>
-        <p>&copy; 2024 PS arquitectura - Todos los derechos reservados</p>
-    </footer>
+   <h2>Bienvenidos a nuestro espacio de diseño</h2>
+
+   <p class="home-main-text">Te asesoramos con tu proyecto</p>
+   <p class="home-secondary-text">Conocé nuestra trayectoria</p>
+   <a href="pages/proyectos.html" class="btn">Ver todos los proyectos</a>
+  </div>
+
+ <div class="home-images container">
+  
+    <img src="assets/images/proyecto 1.jpg" alt="Proyecto">
+    <img src="assets/images/proyecto 2.jpg" alt="Proyecto">
+    <img src="assets/images/proyecto 3.jpg" alt="Proyecto">
+    <img src="assets/images/proyecto 4.jpeg" alt="Proyecto">
+    <img src="assets/images/proyecto 5.jpeg" alt="Proyecto">
+    <img src="assets/images/proyecto 6.jpeg" alt="Proyecto">
+  </div>
+
+</section>
+
+
+<footer>
+
+<p>Capital Federal, Buenos Aires</p>
+<p>+54 9 3444 235467</p>
+<p>psarquitectura@gmail.com</p>
+
+</footer>
+
 </body>
 </html>
